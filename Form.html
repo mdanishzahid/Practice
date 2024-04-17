@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Form</h2>
+    <form action="backend.php">
+        <div> 
+            Name: <input type="text" name="myName" id="">
+        </div> <br>
+        <div> 
+            Roll no: <input type="number" name="myRollno" id="">
+        </div> <br>
+        <div> 
+            Address: <input type="text" name="myAddress" id="">
+        </div> <br>
+        <div> 
+            Gender: Male <input type="radio" name="myGender" id=""> Female <input type="radio" name="myGender" id="">
+        </div> <br>
+        <div> 
+            Date of Birth: <input type="date" name="myDoB" id=""> 
+        </div> <br>
+        <div> 
+            CNIC: <input type="number" name="myCNIC" id=""> 
+        </div> <br>
+        <div> 
+            Course Level: Begainer <input type="radio" name="myCourses"> Expert <input type="radio" name="myCourses"> 
+        </div> <br>
+        <label for="mySubject">Select Subject</label>
+        <select name="Subject" id="mySubject">
+            <option value="WebDev" selected> Web Development </option>
+            <option value="Python"> Python</option>
+            <option value="Flatter"> Flatter</option>
+        </select><br> <br>
+        <div> 
+            Write short intro about yourself: <br><textarea name="myIntro" cols="30" rows="10"></textarea>
+        </div> <br>
+        
+        <div> 
+            <input type="submit" value="Sumbit Now">
+            <input type="reset" value="Reset Now">
+        </div> <br>
+    </form>
+</body>
+</html>
